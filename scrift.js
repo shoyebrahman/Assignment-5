@@ -105,5 +105,8 @@ function previus(){
     document.getElementById("head").classList.remove("hidden");
     document.getElementById("foot").classList.remove("hidden");
     document.getElementById("success").classList.add("hidden");
+    const button = document.getElementsByClassName('seat');
+    button.forEach(button => button.classList.remove('selected'));
+    
 }
 
